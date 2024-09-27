@@ -1,0 +1,4 @@
+corgipath
+numpy
+opencv-python
+scipy
