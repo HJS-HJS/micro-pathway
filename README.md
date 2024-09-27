@@ -7,12 +7,12 @@ This code was written based on python 3.8.
 ```sh
 cd
 mkdir micro_pathway
-git clone https://github.com/HJS-HJS/micro-pathway.git
+git clone https://github.com/HJS-HJS/micro-pathway.git ./micro_pathway
 ```
 
 ### 2. Dependencies
 ```sh
-cd ~/micro_pathway/swipe_across_the_dishes
+cd ~/micro_pathway
 pip install -r requirements.txt    
 ```
 
@@ -20,6 +20,6 @@ pip install -r requirements.txt
 ### Running code
 
 ```sh
-cd ~/micro_pathway/swipe_across_the_dishes/scripts
-python3 tun.py
+cd ~/micro_pathway/scripts
+python3 run.py
 ```
