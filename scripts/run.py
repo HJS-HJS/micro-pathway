@@ -60,4 +60,10 @@ for i in range(10):
         finger1.append(v + (target_r + pusher_r) * unit(point[2] + np.pi + pusher_angle))
         finger2.append(v + (target_r + pusher_r) * unit(point[2] + np.pi - pusher_angle))
 
+    print('Finger1 path')
+    print(np.asarray(finger1))
+    print('Finger2 path')
+    print(np.asarray(finger2))
+    print('')
+
     image.show_path(best_path, finger1, finger2)
