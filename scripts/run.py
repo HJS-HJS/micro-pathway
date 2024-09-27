@@ -3,7 +3,7 @@ from utils.image_manager import ImageManager
 from utils.path_generator import HybridAstarPushPlanner
 from utils.utils import *
 
-image = ImageManager("../example/Pushing_bead_two_swimmers 1.mp4")
+image = ImageManager("../video/Pushing_bead_two_swimmers 1.mp4")
 pusher_n = 2
 pusher_r = 3
 safe_margin = 5

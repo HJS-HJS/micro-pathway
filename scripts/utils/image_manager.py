@@ -128,7 +128,7 @@ class ImageManager():
 
 if __name__ == "__main__":
     print("Get image from video")
-    image = ImageManager("../../example/Pushing_bead_two_swimmers 1.mp4")
+    image = ImageManager("../../video/Pushing_bead_two_swimmers 1.mp4")
     image.get_image()
     image.get_target()
     image.get_pushers(2)
