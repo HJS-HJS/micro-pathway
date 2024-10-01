@@ -51,7 +51,7 @@ goal[2]   = contact_angle
 
 planner = HybridAstarPushPlanner(
     grid_size = 4,
-    dtheta    = np.deg2rad(config["slider"]["max_rot_angle"]),
+    dtheta    = np.deg2rad(config["pusher"]["max_rot_angle"]),
     safe_dist = pusher_r + target_r + safe_margin
     )
 

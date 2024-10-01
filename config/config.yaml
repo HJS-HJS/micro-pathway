@@ -5,6 +5,4 @@ frame: 10   # 비디오에서 밀기 경로를 생성할 프레임 번호
 pusher: 
   number: 1 # 밀기 로봇 갯수
   radius: 3 # 밀기 로봇의 크기 [pixel]
-
-slider:
   max_rot_angle: 30 # 밀기 가능한 각도 [deg]
