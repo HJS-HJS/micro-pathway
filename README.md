@@ -64,7 +64,7 @@ python3 run.py
 </div>
 
 ### 4. Get data
--  You can check the created data in the [following folder](./path/).
+-  You can check the created data in the [path folder](./path/). When you run the code, a path folder will be created.
 -  The _**finger**_ file is the path to the pushing robot.
 -  The _**target**_ file is the starting and ending position of the push object..
 -  All locations were generated based on the pixel coordinates of the video.
