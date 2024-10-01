@@ -1,4 +1,5 @@
 corgipath
 numpy
 opencv-python
+pyyaml
 scipy

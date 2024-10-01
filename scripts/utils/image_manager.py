@@ -81,7 +81,7 @@ class ImageManager():
         cv2.imshow('image', self.image)
         cv2.waitKey()
 
-    def show_path(self, path, *args):
+    def show_path(self, path, fingers):
         cv2.circle(self.image, self.goal, 3, (0,0,255), -1)
         cv2.circle(self.image, self.target, self.target_r, (0,100,255), -1)
 
@@ -96,7 +96,7 @@ class ImageManager():
             cv2.line(self.image,(int(_xy[0]), int(_xy[1])),(int(path[idx + 1][0]), int(path[idx + 1][1])),(0,0,255),3)
             _xy = path[idx + 1]
 
-        for pusher_path in args:
+        for pusher_path in fingers:
             _xy = pusher_path[0]
             for idx in range(len(pusher_path) - 1):
                 cv2.line(self.image,(int(_xy[0]), int(_xy[1])),(int(pusher_path[idx + 1][0]), int(pusher_path[idx + 1][1])),(255,0,0),1)
