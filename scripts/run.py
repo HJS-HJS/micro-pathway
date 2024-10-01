@@ -6,6 +6,10 @@ from utils.image_manager import ImageManager
 from utils.path_generator import HybridAstarPushPlanner
 from utils.utils import *
 
+
+if not os.path.exists(os.path.abspath('.') + "/../path/"):
+    os.makedirs(os.path.abspath('.') + "/../path/")
+
 # Get config file
 with open(os.path.abspath('.') + "/../config/config.yaml") as f:
     config = yaml.load(f,Loader=yaml.FullLoader)
